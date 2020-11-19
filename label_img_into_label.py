@@ -94,6 +94,8 @@ def get_single_data(file_path):
 
 
 
+
+
 if __name__ == '__main__':
     b = get_data(r"imgs/mnist_train_jpg_6000_mirror", ['0_140_1495.png', '0_121_1310.png', '0_109_1093.png'])
     print(b, type(b), b.size())
